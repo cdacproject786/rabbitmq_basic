@@ -1,0 +1,17 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+rabbitmq:
+  queue:
+    name1: sample-1
+    name2: sample-2
+  exchange:
+    name: exchange-1
+  binding:
+    key1: key-1
+    key2: key-2
+# by default these values are given by spring boot. Must configure these properties when working in production env.
+
